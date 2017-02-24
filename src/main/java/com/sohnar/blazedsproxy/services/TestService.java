@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 public class TestService {
 
 	public String echo(String value) {
-		return "PRIMARY Echo Response: "+value;
+		return "MASTER Echo Response: "+value;
 	}
 	
 }
